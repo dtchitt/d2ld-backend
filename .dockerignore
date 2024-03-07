@@ -1,0 +1,16 @@
+# Exclude node_modules as they should be fetched during the build
+node_modules/
+
+# Exclude any git data
+.git/
+.gitignore
+
+# Exclude Docker-related files to prevent them from being sent to the Docker daemon
+Dockerfile
+.dockerignore
+
+# Exclude editor settings
+.vscode/
+
+# Exclude build output directory from the context
+/dist/
